@@ -38,3 +38,7 @@ class Input(Control):
 class Link(Control):
     def __init__(self, id=None, cssclass=None, text=None):
         super().__init__(tag='a', id=id, cssclass=cssclass, text=text)
+
+class Button(Control):
+    def __init__(self, id=None, cssclass=None, text=None):
+        super().__init__(tag='button', id=id, cssclass=cssclass, text=text)
